@@ -1,0 +1,47 @@
+# Compiled Object files *.obj  .obj is a model file format I use sometimes
+*.slo
+*.lo
+*.o
+
+# Precompiled Headers will require recompiling with every pull if we work in the working directory so... have to think about this one the .pch is 500 mb
+*.gch
+*.pch
+
+# Compiled Dynamic libraries *.dll should need dlls for plugins
+*.so
+*.dylib
+
+# Fortran module files dont think well use fortran lol commenting this out *.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.out
+*.pp
+
+#Blender Simulations
+*.bphys
+
+# Blender Autosaves
+*.blend1
+
+# Unreal temp files
+Intermediate/
+Saved/
+gameMain/Intermediate/
+gamemain/Saved/
+
+# if this doesnt work may need to set the files weve already commmited int hose directorys (tracked) to untracked using files #tracked before can be untracked by running git rm --cached filename
+
+
+# Windows
+Thumbs.db
+*.log
+*.tmp
+Models/UV Unwraps/Subs/USA/SSN571/ssn571_bridge_ALLMAPS_6k.psd
+Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
+Intermediate/CachedAssetRegistry.bin
